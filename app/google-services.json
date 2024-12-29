@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690214784288",
+    "project_id": "personal-assistant-a3901",
+    "storage_bucket": "personal-assistant-a3901.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690214784288:android:b581c10f89ba1a8623db45",
+        "android_client_info": {
+          "package_name": "com.example.personalassisstant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzbnJtdmgzgTZguVKdRiFOqlyi3ZQlYLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690214784288:android:eb1c95d6a4120ce123db45",
+        "android_client_info": {
+          "package_name": "com.example.personalassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzbnJtdmgzgTZguVKdRiFOqlyi3ZQlYLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

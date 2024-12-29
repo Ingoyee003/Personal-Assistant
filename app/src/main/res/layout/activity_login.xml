@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/image"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <ProgressBar
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/regnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration now"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
